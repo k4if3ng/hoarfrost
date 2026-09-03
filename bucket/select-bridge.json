@@ -1,0 +1,39 @@
+{
+    "version": "1.2.0",
+    "description": "Forward globally selected text to a configurable URL target.",
+    "homepage": "https://github.com/k4if3ng/select-bridge",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/k4if3ng/select-bridge/releases/download/v1.2.0/SelectBridge-1.2.0-windows-x64-portable.zip",
+            "hash": "bfd1ed52be08892da9c6eedc0317e85f4aa995de3d097b15dc9b18bd9e122101"
+        },
+        "arm64": {
+            "url": "https://github.com/k4if3ng/select-bridge/releases/download/v1.2.0/SelectBridge-1.2.0-windows-arm64-portable.zip",
+            "hash": "c802b1b77ba5458ca723f6d5f225aabb72fb0c059a5348b3cf7d60a180e11c95"
+        }
+    },
+    "extract_dir": "SelectBridge",
+    "bin": "SelectBridge.exe",
+    "shortcuts": [
+        [
+            "SelectBridge.exe",
+            "SelectBridge"
+        ]
+    ],
+    "persist": "data",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/k4if3ng/select-bridge/releases/download/v$version/SelectBridge-$version-windows-x64-portable.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/k4if3ng/select-bridge/releases/download/v$version/SelectBridge-$version-windows-arm64-portable.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
