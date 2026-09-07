@@ -1,16 +1,16 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Forward globally selected text to a configurable URL target.",
     "homepage": "https://github.com/k4if3ng/select-bridge",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/k4if3ng/select-bridge/releases/download/v1.2.1/SelectBridge-1.2.1-windows-x64-portable.zip",
-            "hash": "f53118cc10fb832c027e843687d6dee4c21db157422668c853932c16c98c8565"
+            "url": "https://github.com/k4if3ng/select-bridge/releases/download/v1.2.2/SelectBridge-1.2.2-windows-x64-portable.zip",
+            "hash": "6d39f662e9afbe1b44058a885d9fa132c4a792fdfeb2d1382f41fd8f0b850100"
         },
         "arm64": {
-            "url": "https://github.com/k4if3ng/select-bridge/releases/download/v1.2.1/SelectBridge-1.2.1-windows-arm64-portable.zip",
-            "hash": "c2ab1324bba0675ec24ed105b14bcb00b1743594c6a67884d1095e9b2fb12a09"
+            "url": "https://github.com/k4if3ng/select-bridge/releases/download/v1.2.2/SelectBridge-1.2.2-windows-arm64-portable.zip",
+            "hash": "0cfa5d414abba30ee7a6281b90fe01b342bd99071ef0c3eae711e679468240ed"
         }
     },
     "extract_dir": "SelectBridge",
